@@ -2,29 +2,273 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 61%
+    right: 75%
+    width: 100px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 11%
+    right: 20%
+    width: 100px
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
+@media (min-width: 576px) 
+  .banner-principal__row .banner-principal__img 
+    padding-right: 3rem !important
+    padding-top: 0 !important 
+@media (min-width: 992px) 
+  .col-lg-5.banner-principal__img
+    width: 50% !important
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/bg-tablet.png') !important
+      background-repeat: no-repeat 
+      background-size: cover
+      background-position: 100% -39% !important
+  @media (max-width: $bp-min-sm) 
+    .tarjeta
+      background-image: url('../assets/curso/portada/bg-mobile.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: center !important
 
-.banner-principal .tarjeta
-  background-position: left 50% !important
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
+
 .banner-interno__titulo__icono i
-  color: $color-primario
+  color: $color-secundario
 figcaption
   font-weight: normal
  
+
+.banner-interno__fondo
+  background-image: url('../assets/curso/portada/mini-portada.png') !important
+.fa-lista
+  li
+    display: flex !important
+  li:before
+    position: relative
+    margin-right: 7px
+    font-size: 1.4rem 
+.lista-ul--color.color-primario li > i:first-of-type  
+  color: $color-primario
+.lista-ul--color.color-secundario li > i:first-of-type  
+  color: $color-secundario       
+.lista-ol--cuadro.color-primario .lista-ol--cuadro__vineta
+  background-color: $color-primario
+.bg-color-acento-contenido
+  background-color: $color-acento-contenido
+.bg-color-primario
+  background-color: $color-primario
+.bg-color-secundario
+  background-color: $color-secundario
+.bg-color-sistema-texto
+  background-color: #12263F
+.ct-color-primario
+  color: $color-primario
+.w-fit
+  width: fit-content
+.columns-2
+  columns: 2
+.tc-sec 
+  color: $color-secundario !important
+.tc-ac 
+  color: $color-acento-contenido !important
+.font-italic
+  font-style: italic !important
+.sin-borde
+  border: 0px !important
+
+
+.bgc-intro
+  background-image: url('../assets/curso/temas/intro/bgc.png')
+  background-position: 100% 61%
+  background-size: contain
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.bgc-1
+  //background-image: url('../assets/curso/temas/t2/bgc-1.png')
+  background-position: bottom
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.bgs-1
+  background-image: url('../assets/curso/temas/t2/bgs-1.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.bgs-2
+  background-image: url('../assets/curso/temas/t2/bgs-2.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.bgs-3
+  background-image: url('../assets/curso/temas/t2/bgs-3.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.bgs-4
+  background-image: url('../assets/curso/temas/t2/bgs-4.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.bgs-5
+  background-image: url('../assets/curso/temas/t4/bgs-5.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+
+.bg-1
+  background-color: #DBEEDC
+.bg-2
+  background-color: #F3F9FF
+.bg-3
+  background-color: #7E768C
+.bg-4
+  background-color: #FAF9FD
+.bg-5
+  background-color: #FFE2B8
+.bg-6
+  background-color: #D1C4E9
+.bg-7
+  background-color: #638164
+
+
+.bloque-texto-g.color-acento-botones
+  background-color: #EDF7ED
+.slyder-a
+  &__btn--sigt, &__btn--atrs
+    background-color: $color-acento-botones
+    color: $color-sistema-texto
+    opacity: 0.8
+  &__bullets__item
+    background-color: #E0D5E3
+    &--active
+      background-color: darken(#E0D5E3, 15%)
+      border-color: #bea7c4
+.linea-tiempo-c
+  &__header
+    &__btn--left, &__btn--right
+      background-color: $color-acento-botones
+      color: $color-sistema-texto
+      border-color: $color-acento-botones
+.pasos-b
+  &__header
+    &__btn--left, &__btn--right
+      background-color: $color-acento-botones
+      color: $color-sistema-texto
+      border-color: $color-acento-botones
+.linea-tiempo-d
+  &__item
+    &__dots:after
+      border-left-color: #ECE7F6
+    &--selected
+      .tarjeta
+        background-color: $color-acento-contenido
+.lista-ol--cuadro.color-2 .lista-ol--cuadro__vineta
+  background-color: #638164
+.pasos-a
+  &__circle
+    background-color: #638164
+    .h2
+      color: $white !important
+  &__numero::after
+    border-left-color: #638164
+  &__linea 
+    .hor-line
+      border-top-color: #638164
+    &__esquina__linea
+      border-color: #638164
+
+
+.subt
+  display: flex
+  align-items: center
+  position: relative
+  width: fit-content
+  img
+    width: 60px
+  &::after
+    content: ''
+    position: absolute
+    background-color: $color-primario
+    border-top-right-radius: 30px
+    width: 96.5%
+    height: 70%
+    top: 10px
+    right: 0
+    z-index: 0
+  h3, img
+    z-index: 999  
+    position: relative
+  @media (max-width: $bp-max-sm)
+    &::after
+      height: 93%
+      top: 2px
+  @media (max-width: $bp-max-xs)
+    &::after
+      height: 98%
+      top: 0px
+.subt2
+  background-color: #D1C4E9
+  width: fit-content
+  padding: 10px 20px
+  h3
+    border-bottom: 5px solid #FAF9FD
+.deco
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    background-image: url('../assets/curso/temas/t4/deco.svg')
+    width: 50px
+    height: 100px
+    top: 0
+    left: 0
+    @media (max-width: $bp-max-sm)
+      display: none
