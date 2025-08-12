@@ -40,7 +40,7 @@
 
 .banner-interno__titulo__icono i
   color: $color-secundario
-figcaption
+figcaption, table caption
   font-weight: normal
  
 
@@ -97,6 +97,18 @@ figcaption
     background-size: cover 
 .bgc-1
   //background-image: url('../assets/curso/temas/t2/bgc-1.png')
+  background-position: bottom
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.bgcolor-1
+  background: #FFF8EE
   background-position: bottom
   background-size: 100% 100%
   background-repeat: no-repeat
@@ -177,10 +189,26 @@ figcaption
   background-color: #D1C4E9
 .bg-7
   background-color: #638164
+.bg-8
+  background-color:#FFF8EE
+.bg-9
+  background-color:#FFF7D6
+.bg-10
+  background-color:#A5D6A7 !important
+.bg-11
+  background-color: #EDF7ED
+.bg-12
+  background-color: #F6F3FA
+.bg-13
+  background-color: #FFFBEA
+.bg-14
+  background-color: #ECE7F6
 
 
 .bloque-texto-g.color-acento-botones
   background-color: #EDF7ED
+.bloque-texto-g.color-secundario
+  background-color: #F6F3FA
 .slyder-a
   &__btn--sigt, &__btn--atrs
     background-color: $color-acento-botones
@@ -224,8 +252,46 @@ figcaption
       border-top-color: #638164
     &__esquina__linea
       border-color: #638164
+.tabla-a 
+  th
+    text-align: left
+    padding: 20px
+  td
+    text-align: left
+    padding: 15px 20px
+.circl-arrow .slyder-f__btn i
+  font-size: 1.2rem
+  background-color: $color-acento-botones
+  height: 46px
+  width: 46px
+  padding: 5px
+  border-radius: 500px
+  display: flex
+  justify-content: center
+  align-items: center
+.tabs-c
+  border-bottom: 0px
+  &__header
+    margin-bottom: 0px
+  &__tab--active
+    font-weight: bold
 
 
+.mb-n7p
+  margin-bottom: -7%
+.mt-n8p
+  margin-top: -8%
+  @media (max-width: $bp-max-md)
+    margin-top: 0%
+.w-60
+  width: 60px
+.h-99
+  height: 99px
+.w-105
+  width: 105px
+ul.circle i
+  font-size: 5px
+  padding-top: 3px
 .subt
   display: flex
   align-items: center
@@ -272,3 +338,61 @@ figcaption
     left: 0
     @media (max-width: $bp-max-sm)
       display: none
+.tabla3 table  
+  min-width: 360px
+  th, td
+    padding: 10px
+    border: 5px solid #F3F9FF
+  thead
+    background-color: #A5D6A7
+    border-top-color: #A5D6A7 !important
+  tbody
+    td
+      background-color: #DEE4F0
+.mw-300 table  
+  min-width: 360px    
+  
+.tarjeta-btn
+  background-color: #ECE7F6
+  transition: all 0.3s ease-out
+  img
+    height: 76px
+  .title
+    background-color: #D1C4E9
+    width: fit-content
+    padding: 3px 20px
+    margin: 0 auto
+  .lista-ul--color li > i:first-of-type
+    color: #FFB74D
+  &:hover
+    background-color: #A5D6A7
+    transition: all 0.3s ease-out
+    .title
+      background-color: #F6F3FA
+    .lista-ul--color li > i:first-of-type
+      color: #7E768C
+
+.cursor-pointer.crd_hover_txt
+  cursor: pointer
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #FFE2B8
+      transition: all 0.3s ease-out
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #D1C4E9
+    transition: all 0.3s ease-out
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
