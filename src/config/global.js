@@ -104,7 +104,7 @@ export default {
           },
           {
             numero: '3.2',
-            titulo: '     Entretelas y estabilizadores ',
+            titulo: 'Entretelas y estabilizadores ',
             hash: 't_3_2',
           },
           {
