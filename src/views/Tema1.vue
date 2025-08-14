@@ -91,7 +91,7 @@
                 span.mb-0 El proceso productivo (preparación, ensamble, terminación).
               li.mb-2
                 i.far.fa-circle
-                span.mb-0 La línea de producción (interior, exterior, jean, hogar, deportivo, etc.).
+                span.mb-0 La línea de producción (interior, exterior, #[em jean], hogar, deportivo, etc.).
               li.mb-0 
                 i.far.fa-circle
                 span.mb-0 El tipo de puntada y funcionalidad requerida (doble pespunte, cadeneta, sobrehilado, ciclo, etc.).
@@ -466,7 +466,7 @@
                 img.h-99(src='@/assets/curso/temas/t1/tarj2-4.svg' alt='')
             .bg-4.w-fit.m-auto.mb-4.py-1.px-5
               h4.text-center.mb-0 Regulador de puntada
-            p.text-center Este es el diseñador del grupo. Decide si las puntadas serán largas o cortas, según el tipo de tela o el acabado deseado. ¡Es como ajustar el zoom de una cámara, pero en la costura!
+            p.text-center Este es el diseñador del grupo. Decide si las puntadas serán largas o cortas, según el tipo de tela o el acabado deseado. ¡Es como ajustar el #[em zoom] de una cámara, pero en la costura!
           .tarjeta.bg-1.p-4
             .row.justify-content-center.mb-3
               .col-5.col-md-3.col-lg-4
@@ -480,7 +480,7 @@
                 img.h-99(src='@/assets/curso/temas/t1/tarj2-6.svg' alt='')
             .bg-4.w-fit.m-auto.mb-4.py-1.px-5
               h4.text-center.mb-0 Barra prensatelas y su tornillo de ajuste
-            p.text-center Imagine que es una mano que sujeta la tela para que no se mueva mientras cose. Gracias al tornillo, puede apretar más o menos según el tipo de tela: desde una seda suave hasta un jean grueso.
+            p.text-center Imagine que es una mano que sujeta la tela para que no se mueva mientras cose. Gracias al tornillo, puede apretar más o menos según el tipo de tela: desde una seda suave hasta un #[em jean] grueso.
 
     .row.bgcolor-1.align-items-center.p-2.p-md-4(data-aos="fade")
       .col-lg-12.col-12.px-lg-4

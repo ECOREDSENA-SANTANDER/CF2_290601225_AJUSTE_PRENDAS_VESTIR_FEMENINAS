@@ -165,7 +165,7 @@
               .row.justify-content-center.align-items-center(titulo="")
                 .col-md-11.col-lg-6
                   h4 Prensatelas y pies de máquina
-                  p Los prensatelas, conocidos también como pies de máquina, son accesorios intercambiables que presionan el tejido sobre la cama de la máquina durante el cosido. Existen versiones universales para costura recta y zigzag, así como modelos especializados para tejidos elásticos, cremalleras o dobladillos invisibles. La elección del pie adecuado influye directamente en el control del material: un prensatelas de doble arrastre evitará el deslizamiento de lonas o jacquards, mientras que un pie para telas ligeras protegerá géneros delicados como gasa o encaje. En el contexto del ajuste de prendas femeninas, estos accesorios aseguran puntadas uniformes y evitan estiramientos o pliegues indeseados. 
+                  p Los prensatelas, conocidos también como pies de máquina, son accesorios intercambiables que presionan el tejido sobre la cama de la máquina durante el cosido. Existen versiones universales para costura recta y zigzag, así como modelos especializados para tejidos elásticos, cremalleras o dobladillos invisibles. La elección del pie adecuado influye directamente en el control del material: un prensatelas de doble arrastre evitará el deslizamiento de lonas o #[em jacquards], mientras que un pie para telas ligeras protegerá géneros delicados como gasa o encaje. En el contexto del ajuste de prendas femeninas, estos accesorios aseguran puntadas uniformes y evitan estiramientos o pliegues indeseados. 
                 .col-md-9.col-lg-4
                   .titulo-sexto.color-acento-contenido.mb-2
                     h5 Figura 22.
@@ -176,7 +176,7 @@
               .row.justify-content-center.align-items-center(titulo="")
                 .col-md-11.col-lg-5
                   h4 Dedal y retorcedor de hilo
-                  p El dedal y el retorcedor de hilo son herramientas de apoyo en labores manuales de costura y acabado. El dedal, fabricado en metal o silicona, protege los dedos al empujar la aguja a través de tejidos gruesos y facilita puntada firme en cuellos, cinturillas o inserts de refuerzo. El retorcedor de hilo, con su mango ergonómico y gancho en la punta, permite torsionar el hilo de manera rápida y uniforme para buscar la tensión óptima antes de enhebrar la aguja o preparar cordones decorativos. Ambos instrumentos contribuyen a un manejo más seguro y eficiente de la costura manual en detalles de ajuste y remate.
+                  p El dedal y el retorcedor de hilo son herramientas de apoyo en labores manuales de costura y acabado. El dedal, fabricado en metal o silicona, protege los dedos al empujar la aguja a través de tejidos gruesos y facilita puntada firme en cuellos, cinturillas o #[em inserts] de refuerzo. El retorcedor de hilo, con su mango ergonómico y gancho en la punta, permite torsionar el hilo de manera rápida y uniforme para buscar la tensión óptima antes de enhebrar la aguja o preparar cordones decorativos. Ambos instrumentos contribuyen a un manejo más seguro y eficiente de la costura manual en detalles de ajuste y remate.
                 .col-md-9.col-lg-5
                   .titulo-sexto.color-acento-contenido.mb-2
                     h5 Figura 23.

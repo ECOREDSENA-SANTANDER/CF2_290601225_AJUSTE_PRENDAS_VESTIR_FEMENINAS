@@ -11,7 +11,7 @@
       .bloque-texto-g__img(:style="{'background-image':`url(${require('@/assets/curso/temas/t3/1.png')})`}")
       .bloque-texto-g__texto.p-4
         p.mb-0 Los insumos son los materiales esenciales para confeccionar una prenda. Su elección influye en la calidad, apariencia y durabilidad del producto final.#[br] #[br]
-        p Las telas pueden ser naturales (como algodón o lino) o sintéticas (como poliéster o nylon), y se seleccionan según el tipo de prenda y el uso previsto. Los hilos, por su parte, unen las piezas: se usa algodón para acabados suaves y poliéster cuando se requiere mayor resistencia.#[br] #[br]
+        p Las telas pueden ser naturales (como algodón o lino) o sintéticas (como poliéster o #[em nylon]), y se seleccionan según el tipo de prenda y el uso previsto. Los hilos, por su parte, unen las piezas: se usa algodón para acabados suaves y poliéster cuando se requiere mayor resistencia.#[br] #[br]
         p Entre los insumos de soporte, las entretelas y estabilizadores refuerzan áreas como cuellos y puños, mientras que cierres, botones y velcros permiten ajustar y decorar. Otros elementos como cintas al bies, elásticos y cintas de refuerzo ayudan a dar forma y rematar bordes.
 
     .row.justify-content-center.align-items-center(data-aos="fade")
@@ -19,7 +19,7 @@
         .bg-1.tarjeta.p-4.mb-4.mb-lg-0
           p.mb-0 #[strong Cinta al bies:] tira de tela cortada en diagonal, flexible, usada para rematar bordes curvos o rectos con buen acabado.
       .col-lg-4.col-md-7
-        p También se utilizan accesorios decorativos como encajes o pasamanerías, que aportan estilo, y productos de mantenimiento como sprays de marcado o lubricantes, que facilitan el proceso de confección.
+        p También se utilizan accesorios decorativos como encajes o pasamanerías, que aportan estilo, y productos de mantenimiento como #[em sprays] de marcado o lubricantes, que facilitan el proceso de confección.
       .col-lg-2.col-md-4.col-4
         img(src='@/assets/curso/temas/t3/2.svg', alt='')
       .col-lg-3.col-md-8.col-8
@@ -62,7 +62,7 @@
                 figcaption Fuente: 
                   a(href="https://www.coats.com/es/info-hub/selecting-your-sewing-threads/" target="_blank") https://www.coats.com/es/info-hub/selecting-your-sewing-threads/
               .col-lg-8.col-md-6
-                p El hilo con núcleo combina un filamento de poliéster en el centro con un recubrimiento de fibras (algodón o poliéster), lo que le aporta resistencia y suavidad. Esta estructura facilita el paso por la máquina y produce costuras firmes, ideales para confección a alta velocidad y prendas de alto esfuerzo. Por su parte, los hilos de filamento continuo (como poliéster, nylon o acetato) ofrecen mayor resistencia que los de fibra corta y se utilizan en aplicaciones industriales por su durabilidad y uniformidad.
+                p El hilo con núcleo combina un filamento de poliéster en el centro con un recubrimiento de fibras (algodón o poliéster), lo que le aporta resistencia y suavidad. Esta estructura facilita el paso por la máquina y produce costuras firmes, ideales para confección a alta velocidad y prendas de alto esfuerzo. Por su parte, los hilos de filamento continuo (como poliéster, #[em nylon] o acetato) ofrecen mayor resistencia que los de fibra corta y se utilizan en aplicaciones industriales por su durabilidad y uniformidad.
             .row.justify-content-center.align-items-center
               .col-lg-8.col-md-6
                 h4 El hilo monofilamento 
@@ -88,7 +88,7 @@
                 figcaption Fuente: 
                   a(href="https://www.coats.com/es/info-hub/selecting-your-sewing-threads/" target="_blank") https://www.coats.com/es/info-hub/selecting-your-sewing-threads/
               .col-lg-8.col-md-6
-                p Se fabrica principalmente a partir de filamentos continuos de nylon o poliéster torcidos en conjunto, lo que le confiere una resistencia excepcional. Esta construcción, que integra dos o más hilos finos en un único cordón, garantiza una alta tenacidad y flexibilidad, atributos esenciales para aplicaciones sometidas a elevados esfuerzos mecánicos. Por ello, resulta idóneo para la confección de calzado, artículos de cuero y productos industriales, donde la durabilidad de la costura es prioritaria. Además, su superficie suave reduce el desgaste del material base y facilita el deslizamiento por las máquinas de coser, contribuyendo a un proceso de alta productividad y calidad constante.
+                p Se fabrica principalmente a partir de filamentos continuos de #[em nylon] o poliéster torcidos en conjunto, lo que le confiere una resistencia excepcional. Esta construcción, que integra dos o más hilos finos en un único cordón, garantiza una alta tenacidad y flexibilidad, atributos esenciales para aplicaciones sometidas a elevados esfuerzos mecánicos. Por ello, resulta idóneo para la confección de calzado, artículos de cuero y productos industriales, donde la durabilidad de la costura es prioritaria. Además, su superficie suave reduce el desgaste del material base y facilita el deslizamiento por las máquinas de coser, contribuyendo a un proceso de alta productividad y calidad constante.
       .py-4.py-md-5(titulo="El hilo de filamento texturizado" :icono="require('@/assets/curso/temas/t3/tab-ico3.svg')")
         .row.justify-content-center
           .col-md-11
@@ -159,7 +159,7 @@
               tr
                 td Pesado.
                 td 60, 70 hasta 120.
-                td Jeans, chaquetas.
+                td #[em Jeans], chaquetas.
       
     .subt.mb-4(data-aos="fade")
       img(src="@/assets/curso/temas/t4/subt.svg")
@@ -251,14 +251,14 @@
               td Aspecto decorativo; volumen moderado.
               td Acabados de prensatelas, dobladillos.
             tr
-              td Puntada overlock
+              td Puntada #[em overlock]
               td Muy alta
               td Alta
               td Protección de bordes.
               td Ligeramente visible en el borde; acabado uniforme.
               td Remates de orillo, acabado de costura.
             tr
-              td Puntada cover (cobertura)
+              td Puntada #[em cover] (cobertura)
               td Alta
               td Muy alta
               td Refuerzo de costuras planas.
@@ -272,7 +272,7 @@
               td Tres pasadas juntas; apariencia contundente.
               td Costuras sometidas a alta tensión.
             tr
-              td Festón (overcast)
+              td Festón (#[em overcast])
               td Media
               td Baja
               td Asegura bordes.
@@ -287,7 +287,7 @@
       .col-lg-6.col-md-8.col-9.mb-3.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t3/9.png', alt='')
       .col-lg-6(data-aos="fade-left")
-        p En el diseño industrial de prendas, la elección adecuada de la puntada influye directamente en el valor agregado del producto final. Las puntadas rectas simples se utilizan en costuras principales por su discreción y alta durabilidad. Las puntadas en zigzag y las puntadas overlock permiten elongación y protección de los bordes, combinando resistencia con un acabado decorativo. La puntada cover es ideal para dobladillos en tejidos elásticos, ya que ofrece gran elasticidad y un perfil estético limpio.
+        p En el diseño industrial de prendas, la elección adecuada de la puntada influye directamente en el valor agregado del producto final. Las puntadas rectas simples se utilizan en costuras principales por su discreción y alta durabilidad. Las puntadas en zigzag y las puntadas #[em overlock] permiten elongación y protección de los bordes, combinando resistencia con un acabado decorativo. La puntada #[em cover] es ideal para dobladillos en tejidos elásticos, ya que ofrece gran elasticidad y un perfil estético limpio.
         .bg-9.tarjeta.p-4
           .row.justify-content-center.align-items-center
             .col-lg-3.col-md-2.col-3
@@ -349,7 +349,7 @@
               tr
                 td 600
                 td 602 - 605 - 609
-                td Flatseamers.
+                td #[em Flatseamers].
 
     .row.bgc-intro.align-items-center.p-2.pt-5.p-md-3.pt-md-5(data-aos="fade")
       .col-lg-12.col-12.px-lg-4
@@ -397,7 +397,7 @@
                       img.h-99.mb-3(src='@/assets/curso/temas/t3/tarj1-3.svg', alt='')
                       h4.text-center.ct-1.mb-1 300 (301 – 304 – 315).
                       h4.bg-3.w-fit.text-white.px-2.py-1.m-auto.mb-4 Doble pespunte
-                      p.text-center Dos líneas paralelas de puntada recta proporcionan alta resistencia y son comunes en costuras de alta tensión, como en jeans o artículos deportivos.
+                      p.text-center Dos líneas paralelas de puntada recta proporcionan alta resistencia y son comunes en costuras de alta tensión, como en #[em jeans] o artículos deportivos.
                     .col-md-6.col-lg-5
                       .titulo-sexto.color-acento-contenido.mb-2
                         h5 Figura 34.
@@ -441,7 +441,7 @@
                     .col-md-6.col-lg-7
                       img.h-99.mb-3(src='@/assets/curso/temas/t3/tarj1-6.svg', alt='')
                       h4.text-center.ct-1.mb-1 600 (602 – 605 – 609)
-                      h4.bg-3.w-fit.text-white.px-2.py-1.m-auto.mb-4 Flatseamers
+                      h4.bg-3.w-fit.text-white.px-2.py-1.m-auto.mb-4 #[em Flatseamers]
                       p.text-center Puntada de cobertura plana, usada para unir dos capas de tela con un acabado plano y suave, muy habitual en ropa deportiva y de punto.
                     .col-md-6.col-lg-5
                       .titulo-sexto.color-acento-contenido.mb-2
@@ -541,7 +541,7 @@
           li
             .lista-ol--cuadro__vineta
               span.fw-bold b.
-            span.mb-0 #[strong Método de aplicación:] planchado versus cosido; el sew-in es preferido en materiales que no toleran alta temperatura.
+            span.mb-0 #[strong Método de aplicación:] planchado versus cosido; el #[em sew-in] es preferido en materiales que no toleran alta temperatura.
           li
             .lista-ol--cuadro__vineta
               span.fw-bold c.
@@ -569,7 +569,7 @@
           li
             .lista-ol--cuadro__vineta
               span.fw-bold c.
-            span.mb-0 #[strong Adherencia:] aplicar plancha (fusible) siguiendo recomendaciones de temperatura y tiempo, o fijar con hilvanes (sew-in).
+            span.mb-0 #[strong Adherencia:] aplicar plancha (fusible) siguiendo recomendaciones de temperatura y tiempo, o fijar con hilvanes (#[em sew-in]).
           li
             .lista-ol--cuadro__vineta
               span.fw-bold d.
@@ -577,7 +577,7 @@
           li
             .lista-ol--cuadro__vineta
               span.fw-bold e.
-            span.mb-0 #[strong Remoción (si aplica):] retirar estabilizadores tear-away o wash-away con cuidado para no dañar bordados o apliques.
+            span.mb-0 #[strong Remoción (si aplica):] retirar estabilizadores #[em tear-away] o #[em wash-away] con cuidado para no dañar bordados o apliques.
       .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
         img.w-50.m-auto(src='@/assets/curso/temas/t3/14.png', alt='')
 
@@ -599,7 +599,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7(data-aos="fade-right")
-        p Los plackets o tapetas requieren insumos específicos que aseguren su funcionalidad y apariencia; entre los más comunes se encuentran entretelas para dar estructura, botones o broches como sistema de cierre, hilos resistentes y cintas de refuerzo. La elección de estos materiales varía según el tipo de prenda, tejido base y nivel de acabado deseado.
+        p Los #[em plackets] o tapetas requieren insumos específicos que aseguren su funcionalidad y apariencia; entre los más comunes se encuentran entretelas para dar estructura, botones o broches como sistema de cierre, hilos resistentes y cintas de refuerzo. La elección de estos materiales varía según el tipo de prenda, tejido base y nivel de acabado deseado.
       .col-lg-5.col-md-8(data-aos="fade-left")
         .bg-1.tarjeta.px-5.py-2
           img(src='@/assets/curso/temas/t3/15.svg', alt='')
@@ -618,7 +618,7 @@
         figcaption Fuente: 
           a(href="https://n9.cl/fr05z" target="_blank") https://n9.cl/fr05z 
       .col-lg-5.col-md-7
-        p Los cierres de cremallera desempeñan un papel esencial en el acceso y el ajuste de las prendas. Se clasifican principalmente según el material de la cadena y los dientes: los cierres de nylon integran dientes inyectados directamente en una cinta de poliéster, lo que le confiere ligereza, flexibilidad y resistencia al desgaste; por su parte, los cierres metálicos (generalmente de aluminio o latón) ofrecen una mayor solidez y un acabado más robusto, habitualmente empleado en jeans y prendas exteriores. La selección del tipo de cremallera considera el grosor del tejido, la frecuencia de uso y el diseño estético; en todos los casos, es imprescindible garantizar una instalación precisa, con entalle uniforme de la cinta y fijación segura de los deslizadores, para asegurar un funcionamiento suave y duradero.
+        p Los cierres de cremallera desempeñan un papel esencial en el acceso y el ajuste de las prendas. Se clasifican principalmente según el material de la cadena y los dientes: los cierres de #[em nylon] integran dientes inyectados directamente en una cinta de poliéster, lo que le confiere ligereza, flexibilidad y resistencia al desgaste; por su parte, los cierres metálicos (generalmente de aluminio o latón) ofrecen una mayor solidez y un acabado más robusto, habitualmente empleado en #[em jeans] y prendas exteriores. La selección del tipo de cremallera considera el grosor del tejido, la frecuencia de uso y el diseño estético; en todos los casos, es imprescindible garantizar una instalación precisa, con entalle uniforme de la cinta y fijación segura de los deslizadores, para asegurar un funcionamiento suave y duradero.
       .col-lg-4.col-md-5.col-8
         img(src='@/assets/curso/temas/t3/16.png', alt='')
 
@@ -639,13 +639,13 @@
           tbody
             tr
               td Cierre de cremallera con dientes metálicos
-              td Dentado inyectado sobre cinta de poliéster (nylon) o dientes metálicos unidos a cinta textil.
+              td Dentado inyectado sobre cinta de poliéster (#[em nylon]) o dientes metálicos unidos a cinta textil.
               td Apertura y cierre de prendas ligeras y medias.
-              td Nylon, metálico.
-              td Cremallera invisible en vestidos; cremallera metálica en jeans.
+              td #[em Nylon], metálico.
+              td Cremallera invisible en vestidos; cremallera metálica en #[em jeans].
             tr
               td Cierre de cremallera con doble cabeza
-              td Flexibilidad y bajo peso (nylon) versus alta resistencia y apariencia robusta (metálico).
+              td Flexibilidad y bajo peso (#[em nylon]) versus alta resistencia y apariencia robusta (metálico).
               td Bolsillos, cierres centrales, aberturas laterales.
               td Separación estándar, bidireccional.
               td Cremallera bidireccional en chaquetas; cremallera estándar en ropa deportiva.
@@ -653,11 +653,11 @@
               td Cierre de cremallera plástica
               td Deslizadores con tiradores ergonómicos o decorativos.
               td Vestimenta deportiva, prendas exteriores, ropa técnica.
-              td Con dientes de nylon, dientes metálicos, autobloqueo.
+              td Con dientes de #[em nylon], dientes metálicos, autobloqueo.
               td Cremallera autobloqueo en ropa exterior; cremallera laminada en carpas.
             tr
               td Cierre de cremallera metálico para bolsos
-              td Resistencia a la corrosión (aluminio, latón) y facilidad de teñido de la cinta (nylon).
+              td Resistencia a la corrosión (aluminio, latón) y facilidad de teñido de la cinta (#[em nylon]).
               td Textiles de alto uso y lavados frecuentes.
               td Tonos coordinados o contrastantes.
               td Cremallera contrastante en bolsos; cremallera metálica en chaquetas de mezclilla.
@@ -748,7 +748,7 @@
     .mb-5(data-aos="fade-down")
       .titulo-sexto.color-acento-contenido
         h5 Tabla 15.
-        span Tipos de broches y snaps 
+        span Tipos de broches y #[em snaps]
       .tabla-a.color-acento-contenido
         table(alt="")
           caption Fuente: SENA, (2025)
@@ -765,13 +765,13 @@
               td Cierre de dos piezas con encaje a presión (hembra y macho).
               td Cierres rápidos en bolsillos, cuellos y accesorios.
               td Acero niquelado, latón, plástico.
-              td Snap de acero en chaquetas de esquí; snap de plástico en prendas infantiles.
+              td #[em Snap] de acero en chaquetas de esquí; #[em snap] de plástico en prendas infantiles.
             tr
               td #[em Snaps]
               td Bajo perfil y acabado discreto.
               td Ropa técnica, accesorios, prendas infantiles.
               td De presión estándar, marine (resistente al agua).
-              td Snap marine en ropa de lluvia; snap estándar en bolsos.
+              td #[em Snap] marine en ropa de lluvia; #[em snap] estándar en bolsos.
             tr
               td Broches
               td Soporta múltiples ciclos de apertura y cierre sin deformarse.
@@ -783,7 +783,7 @@
               td Instalación mediante prensa manual o hidráulica.
               td Montaje seguro y uniforme en zona de aplicación
               td De montaje manual, de prensa.
-              td Snap montado con herramienta de mano en talleres domésticos; snap hidráulico en producción industrial.
+              td #[em Snap] montado con herramienta de mano en talleres domésticos; #[em snap] hidráulico en producción industrial.
 
 
     Separador
@@ -886,7 +886,7 @@
               td Elástico
               td Hilo tubular elástico, estrecho y con gran capacidad de estiramiento.
               td Ajuste en prendas y accesorios.
-              td Lycra, spandex, goma natural.
+              td #[em Lycra, spandex], goma natural.
               td Cordón de capucha; ajuste de bolsa de cintura.
 
     .subt2.mb-4(data-aos="fade")    
@@ -924,13 +924,13 @@
               td Velcro (Cinta Macho).
               td Cara con gancho rígido.
               td Cierre rápido y regulable.
-              td Nylon, poliéster.
+              td #[em Nylon], poliéster.
               td Ajuste de calzado infantil; cierres de bolsillos.
             tr
               td Velcro (Cinta Hembra).
               td Cara con bucle suave.
               td Fijación sin costura visible.
-              td Nylon, poliéster.
+              td #[em Nylon], poliéster.
               td Sujeción de fundas; cierre de bolsas de deporte.
             tr
               td Cierre de Contacto.
@@ -952,20 +952,20 @@
       .col-lg-5.col-md-8.mb-3.mb-lg-0
         img(src="@/assets/curso/temas/t3/20.png")
       .col-lg-7
-        p Los encajes constituyen un elemento decorativo y estructural esencial en la confección femenina, ya que combinan artesanía y sofisticación. Se obtienen mediante técnicas de tejido manual (ganchillo, bolillos) o industrial (tejido de máquina raschel, schiffli), y ofrecen un juego de transparencia, textura y relieve que enmarca y realza las zonas donde se aplican.
+        p Los encajes constituyen un elemento decorativo y estructural esencial en la confección femenina, ya que combinan artesanía y sofisticación. Se obtienen mediante técnicas de tejido manual (ganchillo, bolillos) o industrial (tejido de máquina #[em raschel, schiffli]), y ofrecen un juego de transparencia, textura y relieve que enmarca y realza las zonas donde se aplican.
         .row.justify-content-center
           .col-lg-2.col-md-2.d-none.d-md-block
             img(src='@/assets/curso/temas/t3/21.svg', alt='')
           .col-lg-10.col-md-10
             .bg-17.tarjeta.p-4.h-100.d-flex.align-items-center
-              p.mb-0 Además de su función ornamental (marcando escotes, puños, cinturillas y faldas) los encajes pueden servir como refuerzo ligero en piezas delicadas, aportando estabilidad al tejido base sin volúmenes excesivos. Su versatilidad de diseño (motivos florales, geométricos, festoneados) permite adaptarlos tanto a prendas de día como de noche, desde lingerie y blusas hasta vestidos de novia y tops de fiesta. 
+              p.mb-0 Además de su función ornamental (marcando escotes, puños, cinturillas y faldas) los encajes pueden servir como refuerzo ligero en piezas delicadas, aportando estabilidad al tejido base sin volúmenes excesivos. Su versatilidad de diseño (motivos florales, geométricos, festoneados) permite adaptarlos tanto a prendas de día como de noche, desde #[em lingerie] y blusas hasta vestidos de novia y tops de fiesta.
 
     .subt.mb-4(data-aos="fade")
       img(src="@/assets/curso/temas/t4/subt.svg")
       h3.ps-3.pe-4.mb-0 Tipos de encaje y su aplicabilidad
     
     TabsC.color-primario.mb-5(data-aos="fade")
-      .bg-11.py-4.py-md-5(titulo="Chantilly")
+      .bg-11.py-4.py-md-5(titulo="<em>Chantilly</em>")
         .row.justify-content-center.align-items-center
           .col-9.col-md-5.col-lg-3.mb-4.mb-lg-0
             .titulo-sexto.color-acento-contenido.mb-2
@@ -982,11 +982,11 @@
                 span.mb-0 #[strong Características:]#[br] Ligero, fino, con motivos florales y fondo de tul; alta transparencia.
               li.mb-4
                 i.far.fa-circle
-                span.mb-0 #[strong Aplicabilidad en prendas femeninas:]#[br] 
+                span.mb-0 #[strong Aplicabilidad en prendas femeninas:]#[br] Escotes, mangas largas o cortas, páneles laterales.
               li
                 i.far.fa-circle
-                span.mb-0 #[strong Ejemplos:]#[br] 
-      .bg-11.py-4.py-md-5(titulo="Guipur")
+                span.mb-0 #[strong Ejemplos:]#[br] #[em Top] de encaje transparente; vestido de gala con cuerpo de #[em chantilly].
+      .bg-11.py-4.py-md-5(titulo="<em>Guipur</em>")
         .row.justify-content-center.align-items-center
           .col-9.col-md-5.col-lg-3.mb-4.mb-lg-0
             .titulo-sexto.color-acento-contenido.mb-2
@@ -1141,7 +1141,7 @@
               td Holográficas.
               td Superficie iridiscente que cambia de color según el ángulo de incidencia.
               td Detalles localizados en escotes, espaldas y cinturillas.
-              td Body con lentejuelas holográficas; falda midi decorativa.
+              td #[em Body] con lentejuelas holográficas; falda midi decorativa.
             tr
               td Microlentejuelas de PVC.
               td Pequeñas y flexibles; permiten bordados densos sin endurecer el tejido.
@@ -1209,7 +1209,7 @@
               td Apliques de cuero o vinilo.
               td Material resistente, acabado mate o brillante.
               td Refuerzo de codos, bolsillos y hombros en chaquetas técnicas.
-              td Chaqueta biker con parches de cuero.
+              td Chaqueta #[em biker] con parches de cuero.
             tr
               td(rowspan="3") Parches
               td Parches bordados cosidos.
@@ -1219,13 +1219,13 @@
             tr
               td Parches impresos termoadhesivos.
               td Impresión digital sobre lona o poliéster; aplicación por calor.
-              td Personalización de jeans, faldas y mochilas.
-              td Jeans customizados con parche termoadhesivo.
+              td Personalización de #[em jeans], faldas y mochilas.
+              td #[em Jeans] customizados con parche termoadhesivo.
             tr
               td Parches de silicona o goma.
               td Material flexible y duradero; perfil bajo.
               td Zonas de alto desgaste como rodillas y codos.
-              td Leggings con parches de silicona en rodillas.
+              td #[em Leggings] con parches de silicona en rodillas.
 
 
     Separador
@@ -1282,7 +1282,7 @@
               td Ojal cortado y rematado
               td Abertura lineal en tejido con bordes de puntada densa; puede ser recto o de lágrima.
               td Camisas, blusas, chaquetas, abrigos.
-              td Ojal recto en camisas formales; ojal de lágrima en blazers.
+              td Ojal recto en camisas formales; ojal de lágrima en #[em blazers].
             tr
               td Ojal de botón automático
               td Pieza prefabricada de metal o plástico que se inserta con prensa; sin puntadas visibles.
@@ -1291,8 +1291,8 @@
             tr
               td Presilla de hilo
               td Lazo cosido con hilo en puntada enrollada o bordada; alta flexibilidad.
-              td Blusas, cardígans, abrigos ligeros.
-              td Presilla de hilo en cardígans de punto.
+              td Blusas, #[em cardigans], abrigos ligeros.
+              td Presilla de hilo en #[em cardigans] de punto.
             tr
               td Presilla de cinta
               td Lazo de cinta cortada al Dies o entresacada; ofrece resistencia y volumen moderado.
@@ -1328,18 +1328,18 @@
             tr
               td Forro plano
               td Tejido liso y fino (acetato, viscosa, poliéster); ligero, evita transparencias y facilita el movimiento.
-              td Blazers, vestidos de fiesta, faldas de gala.
-              td Forro de acetato en blazer de traje; forro de viscosa en vestido de noche.
+              td #[em Blazers], vestidos de fiesta, faldas de gala.
+              td Forro de acetato en #[em blazer] de traje; forro de viscosa en vestido de noche.
             tr
               td Forro elástico
-              td Mezcla de elastano con poliéster o nylon; se ajusta al cuerpo y aporta confort en prendas entalladas.
+              td Mezcla de elastano con poliéster o #[em nylon]; se ajusta al cuerpo y aporta confort en prendas entalladas.
               td Vestidos ajustados, faldas lápiz, blusas ceñidas.
               td Vestido de cóctel con forro elástico; falda lápiz con forro flexible.
             tr
               td Cinta de hombro de algodón
               td Banda tejida de alta resistencia; previene estiramientos y mantiene forma en sisas y hombros.
-              td Chaquetas, blazers, abrigos ligeros.
-              td Cinta interior de hombro en blazer de algodón.
+              td Chaquetas, #[em blazers], abrigos ligeros.
+              td Cinta interior de hombro en #[em blazer] de algodón.
             tr
               td Cinta de hombro de satín
               td Cinta brillante y suave al contacto; refuerza costuras invisibles en sisa y cuello, aporta confort.
