@@ -187,7 +187,7 @@
             .col-sm-auto
               a.boton.bg-4(:href="('https://www.youtube.com/watch?v=giII2qtE8ig&list=PLkc5n6npRWkhq9z8eUd2qXfN43M08IM-3&index=2')" target="_blank")
                 span Ver video
-                i.fas.fa-link
+                i.fas.fa-circle-play
           .row.justify-content-between.align-items-center.mb-4.mb-md-2
             .col.mb-0
               ul.lista-ul--color.color-primario.fa-lista
@@ -197,7 +197,7 @@
             .col-sm-auto
               a.boton.bg-4(:href="('https://www.youtube.com/watch?v=vQuwUriVIhk&list=PLkc5n6npRWkhq9z8eUd2qXfN43M08IM-3&index=3 ')" target="_blank")
                 span Ver video
-                i.fas.fa-link
+                i.fas.fa-circle-play
           .row.justify-content-between.align-items-center
             .col.mb-0
               ul.lista-ul--color.color-primario.fa-lista
@@ -207,7 +207,7 @@
             .col-sm-auto
               a.boton.bg-4(:href="('https://www.youtube.com/watch?v=FMZdQb13rXU&list=PLkc5n6npRWkhq9z8eUd2qXfN43M08IM-3&index=4 ')" target="_blank")
                 span Ver video
-                i.fas.fa-link
+                i.fas.fa-circle-play
 
     .subt.mb-4(data-aos="fade")
       img(src="@/assets/curso/temas/t4/subt.svg")

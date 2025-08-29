@@ -116,21 +116,25 @@
 
     .row.justify-content-center.mb-5
       .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 1.
-          span Máquina de coser familiar
-        .row.justify-content-center
-          .col-lg-8.col-md-9
-            figure.mb-3  
-              img(src='@/assets/curso/temas/t1/fig1.png', alt='Máquina de coser de uso doméstico con diseño compacto. Tiene estructura rectangular, dos perillas circulares al frente y una palanca de aguja en el costado izquierdo. Incluye base plana para apoyar la tela y brazo libre para costuras tubulares.')
+        .bg-2.p-4.mb-2
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 1.
+            span Máquina de coser familiar
+          .row.justify-content-center
+            .col-lg-8.col-md-9
+              figure.mb-3  
+                img(src='@/assets/curso/temas/t1/fig1.png', alt='Máquina de coser de uso doméstico con diseño compacto. Tiene estructura rectangular, dos perillas circulares al frente y una palanca de aguja en el costado izquierdo. Incluye base plana para apoyar la tela y brazo libre para costuras tubulares.')
         figcaption Fuente: 
           a(href="https://flamingo.vteximg.com.br/arquivos/ids/174362-412-528/7393033099411--1-.jpg?v=637257653012400000" target="_blank") https://flamingo.vteximg.com.br/arquivos/ids/174362-412-528/7393033099411--1-.jpg?v=637257653012400000     
       .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
-        .titulo-sexto.color-acento-contenido.mb-lg-5
-          h5 Figura 2.
-          span Tipos de costura maquina familiar
-        figure.mb-3.py-lg-5.px-lg-4 
-          img.py-lg-5(src='@/assets/curso/temas/t1/fig2.svg', alt='Conjunto de ocho gráficos lineales identificados con letras de la A a la H. Cada uno representa un tipo de puntada distinta: la primera es recta, las siguientes varían en formas de zigzag, ondas y combinaciones simétricas. Están dispuestas horizontalmente en línea.')
+        .bg-2.p-4.mb-2
+          .titulo-sexto.color-acento-contenido.mb-lg-5
+            h5 Figura 2.
+            span Tipos de costura maquina familiar
+          .row.justify-content-center.py-lg-4
+            .col-lg-11.col-md-9
+              figure.mb-3.py-lg-5
+                img(src='@/assets/curso/temas/t1/fig2.svg', alt='Conjunto de ocho gráficos lineales identificados con letras de la A a la H. Cada uno representa un tipo de puntada distinta: la primera es recta, las siguientes varían en formas de zigzag, ondas y combinaciones simétricas. Están dispuestas horizontalmente en línea.')
         figcaption Fuente: 
           a(href="https://n9.cl/bwkob" target="_blank") https://n9.cl/bwkob
 
@@ -174,21 +178,23 @@
       img(src="@/assets/curso/temas/t4/subt.svg")
       h3.ps-3.pe-4.mb-0 Máquinas semiindustriales
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade")
       .col-lg-4
         p Las máquinas semiindustriales se caracterizan por operar a una velocidad de 1725 revoluciones por minuto, lo que permite un ritmo de producción intermedio apropiado para talleres de volumen moderado. Su potencia media habilita el cosido de múltiples capas de materiales, superando la capacidad de las máquinas domésticas sin requerir la infraestructura pesada de equipos industriales completos. 
       .col-lg-3.col-md-8
-        img(src='@/assets/curso/temas/t1/6.svg', alt='')
+        .bg-4
+          img(src='@/assets/curso/temas/t1/6.svg', alt='')
       .col-lg-5
         p En la mayoría de los modelos, la lubricación se realiza de forma manual, aunque algunos incorporan sistemas de bombeo automático para mantener el engrase continuo. Estas máquinas ofrecen una diversidad de puntadas que incluye costura recta, zigzag sencillo, confección de ojales rectos y fijación de botones y apliques, lo que amplía sus aplicaciones en el ensamblaje y acabado de prendas. Gracias a su diseño equilibrado entre versatilidad y rendimiento, resultan idóneas para procesos de confección que exigen tanto robustez técnica como flexibilidad operativa.
 
     .row.justify-content-center.mb-5
       .col-lg-4(data-aos="fade-right")
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 3.
-          span Máquina semiindustrial
-        figure.mb-3  
-          img(src='@/assets/curso/temas/t1/fig3.png', alt='Máquina de coser con estructura robusta. Presenta dos perillas frontales circulares para seleccionar funciones y puntadas, una palanca para el prensatelas, y base amplia con brazo libre. Incluye compartimiento superior para accesorios.')
+        .bg-2.p-4
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 3.
+            span Máquina semiindustrial
+          figure
+            img(src='@/assets/curso/temas/t1/fig3.png', alt='Máquina de coser con estructura robusta. Presenta dos perillas frontales circulares para seleccionar funciones y puntadas, una palanca para el prensatelas, y base amplia con brazo libre. Incluye compartimiento superior para accesorios.')
       .col-lg-8(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
           h5 Tabla 2.
@@ -235,11 +241,12 @@
 
     .row.justify-content-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 4.
-          span Máquina fileteadora industrial
-        figure.mb-3.py-lg-5
-          img(src='@/assets/curso/temas/t1/fig4.png', alt='Máquina industrial con diseño robusto y estructura compacta. Dispone de múltiples tensores en la parte superior para controlar hilos, área de corte lateral integrada y base ancha con ventilación inferior. Indicada para procesos de sobrehilado o remate de bordes.')
+        .bg-2.p-4.mb-3
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 4.
+            span Máquina fileteadora industrial
+          figure.py-lg-5
+            img(src='@/assets/curso/temas/t1/fig4.png', alt='Máquina industrial con diseño robusto y estructura compacta. Dispone de múltiples tensores en la parte superior para controlar hilos, área de corte lateral integrada y base ancha con ventilación inferior. Indicada para procesos de sobrehilado o remate de bordes.')
         figcaption Fuente: 
           a(href="https://maquinasparaconfeccion.com/wp-content/uploads/2018/01/KT-757.jpg" target="_blank") https://maquinasparaconfeccion.com/wp-content/uploads/2018/01/KT-757.jpg
       .col-lg-8(data-aos="fade-left")
@@ -298,15 +305,15 @@
           .titulo-sexto.color-acento-contenido
             h5 Figura 5.
             span Máquina ojaladora
-          figure 
-            img.py-lg-3(src='@/assets/curso/temas/t1/fig5.png', alt='Máquina industrial automatizada con estructura robusta. Incorpora brazo articulado, sistema electrónico integrado y pantalla lateral de control táctil. Está instalada sobre mesa de trabajo y equipada para tareas programables de confección de precisión.')          
+          figure.px-lg-3 
+            img(src='@/assets/curso/temas/t1/fig5.png', alt='Máquina industrial automatizada con estructura robusta. Incorpora brazo articulado, sistema electrónico integrado y pantalla lateral de control táctil. Está instalada sobre mesa de trabajo y equipada para tareas programables de confección de precisión.')          
       .col-lg-6.mb-3(data-aos="fade-left")
         .bg-2.p-3.mb-2
           .titulo-sexto.color-acento-contenido
             h5 Figura 6.
             span Máquina botonadora
-          figure 
-            img.py-lg-3(src='@/assets/curso/temas/t1/fig6.png', alt='Máquina industrial de estructura vertical, diseñada para realizar ojales automatizados. Posee un cabezal compacto, área de costura delimitada con prensa y alimentación precisa de tela. Se encuentra integrada a una mesa de trabajo con panel digital auxiliar.')
+          figure.px-lg-3 
+            img(src='@/assets/curso/temas/t1/fig6.png', alt='Máquina industrial de estructura vertical, diseñada para realizar ojales automatizados. Posee un cabezal compacto, área de costura delimitada con prensa y alimentación precisa de tela. Se encuentra integrada a una mesa de trabajo con panel digital auxiliar.')
         figcaption Fuente: 
           a(href="https://amexicol.com/producto/maquina-botonadora-electronica-juki/" target="_blank") https://amexicol.com/producto/maquina-botonadora-electronica-juki/
 
@@ -337,9 +344,7 @@
       ImagenInfografica.color-acento-botones.mb-5
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/temas/t1/img-infog.png', alt='Texto que describa la imagen')
-            figcaption Fuente: 
-              a(href="https://www.freepik.es/psd-premium/maquina-coser-retro-aislada-sobre-fondo-blanco_408932305.htm#fromView=search&page=5&position=23&uuid=052c62ae-3ae2-47da-a80b-e2734976e056&query=m%C3%A1quina+de+coser" target="_blank") https://www.freepik.es/psd-premium/maquina-coser-retro-aislada-sobre-fondo-blanco_408932305.htm#fromView=search&page=5&position=23&uuid=052c62ae-3ae2-47da-a80b-e2734976e056&query=m%C3%A1quina+de+coser
+            img(src='@/assets/curso/temas/t1/img-infog.png', alt='')            
         .tarjeta.color-acento-contenido.p-3(x="36%" y="36%" numero="+")
           h4.mb-2 Cabeza
           p.mb-0 Contiene los mecanismos de accionamiento y regulación de la puntada, tales como el eje principal, la biela y el sistema de toma de lazada. Es el núcleo funcional donde se generan los movimientos de costura.
@@ -425,19 +430,14 @@
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.3.	 ¿Cómo se forma una puntada en la máquina de coser? 
     
-    .row.justify-content-center.mb-5
-      .col-lg-7.pe-lg-0(data-aos="fade-right")
-        .bg-12.p-4.p-lg-5.h-100
-          .d-lg-flex.align-items-center
-            p.mb-0 Imagine que dentro de su máquina de coser hay un pequeño equipo de especialistas, y cada uno cumple una misión muy importante para lograr que la puntada quede firme, pareja y sin errores. Por ello se exponen los protagonistas:
-      .col-lg-5.ps-lg-0.d-none.d-lg-block(data-aos="fade-left")
-        .bg-11.px-lg-5.h-100
-          img.px-lg-5.pt-lg-3(src='@/assets/curso/temas/t1/12.svg', alt='')
+    p Imagine que dentro de su máquina de coser hay un pequeño equipo de especialistas, y cada uno cumple una misión muy importante para lograr que la puntada quede firme, pareja y sin errores. Por ello se exponen los protagonistas:
+    
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3.d-none.d-lg-block(data-aos="fade-right")
-        img(src='@/assets/curso/temas/t1/13.png', alt='')
-      .col-lg-9(data-aos="fade-left")
+      .col-lg-4.d-none.d-lg-block(data-aos="fade-right")
+        .bg-2.p-4
+          img(src='@/assets/curso/temas/t1/12.svg', alt='')
+      .col-lg-8(data-aos="fade-left")
         SlyderF.circl-arrow(columnas="col-lg-6 col-xl-6")
           .tarjeta.bg-1.p-4
             .row.justify-content-center.mb-3

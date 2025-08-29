@@ -464,7 +464,7 @@
             .col-sm-auto
               a.boton.bg-4(:href="('https://www.youtube.com/watch?v=XmnGaIHLbro&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA')" target="_blank")
                 span Ver video
-                i.fas.fa-link
+                i.fas.fa-circle-play
 
 
     Separador
@@ -724,29 +724,11 @@
       img(src="@/assets/curso/temas/t4/subt.svg")
       h3.ps-3.pe-4.mb-0 Broches y #[em snaps]
 
-    .row.justify-content-center.mb-5(data-aos="fade")
-      .col-lg-3.col-md-6.col-10.mb-4.mb-lg-0
-        .titulo-sexto.color-acento-contenido.mb-2
-          h5 Figura 43.
-          span Broches de acero
-        figure.mb-3  
-          img(src='@/assets/curso/temas/t3/fig43.png', alt='Exhibidor de botones metálicos y recubiertos, organizados en seis filas, cada uno acompañado por una referencia que indica acabado o tono.')
-        figcaption Fuente: 
-          a(href="https://peleteriamilano.com/producto/broche-de-presion-ideal-para-chamarra-rt-100-o-1000-juegos/" target="_blank") https://peleteriamilano.com/producto/broche-de-presion-ideal-para-chamarra-rt-100-o-1000-juegos/
-      .col-lg-3.col-md-6.col-10.mb-4.mb-lg-0
-        .titulo-sexto.color-acento-contenido.mb-2
-          h5 Figura 44.          
-          span #[em Snap] montado
-        figure.mb-3  
-          img(src='@/assets/curso/temas/t3/fig44.png', alt='Cuatro piezas plásticas blancas dispuestas sobre una base cuadriculada, con etiquetas que indican dos partes huecas y dos salientes, comúnmente utilizadas como broches a presión.')
-        figcaption Fuente: 
-          a(href="https://coloursforbaby.blogspot.com/2016/09/como-poner-y-quitar-snaps.html" target="_blank") https://coloursforbaby.blogspot.com/2016/#[br]09/como-poner-y-quitar-snaps.html
-      .col-lg-6
-        .bg-1.p-4.p-lg-5.h-100.d-flex.align-items-center
-          p.mb-0 Los broches de presión (#[em snaps]) son cierres de dos piezas que se ensamblan con un simple “clic”, combinando rapidez de apertura y resistencia mecánica. Están compuestos por un casquillo hembra y un macho, disponibles en acero niquelado, latón o plástico, lo que permite su uso en prendas infantiles, ropa técnica y accesorios de moda. Su instalación se realiza mediante herramientas de prensa manual o hidráulica, insertando primero el casquillo y luego el elemento macho, de manera que queden firmemente unidos. Gracias a su bajo perfil y a su capacidad de soportar múltiples ciclos de apertura, los broches resultan idóneos en aplicaciones donde se requiere un cierre rápido y discreto, tales como bolsillos, cuellos desmontables y complementos de diseño.
-
+    .bg-1.p-4.p-lg-5.h-100.d-flex.align-items-center.mb-4
+      p.mb-0 Los broches de presión (#[em snaps]) son cierres de dos piezas que se ensamblan con un simple “clic”, combinando rapidez de apertura y resistencia mecánica. Están compuestos por un casquillo hembra y un macho, disponibles en acero niquelado, latón o plástico, lo que permite su uso en prendas infantiles, ropa técnica y accesorios de moda. Su instalación se realiza mediante herramientas de prensa manual o hidráulica, insertando primero el casquillo y luego el elemento macho, de manera que queden firmemente unidos. Gracias a su bajo perfil y a su capacidad de soportar múltiples ciclos de apertura, los broches resultan idóneos en aplicaciones donde se requiere un cierre rápido y discreto, tales como bolsillos, cuellos desmontables y complementos de diseño.   
+        
     .mb-5(data-aos="fade-down")
-      .titulo-sexto.color-acento-contenido
+      .titulo-sexto.color-acento-contenido.mb-3
         h5 Tabla 15.
         span Tipos de broches y #[em snaps]
       .tabla-a.color-acento-contenido
@@ -785,6 +767,28 @@
               td De montaje manual, de prensa.
               td #[em Snap] montado con herramienta de mano en talleres domésticos; #[em snap] hidráulico en producción industrial.
 
+    .row.justify-content-center.mb-5(data-aos="fade")
+      .col-lg-6.col-md-6.col-10.mb-4.mb-lg-0
+        .titulo-sexto.color-acento-contenido.mb-2
+          h5 Figura 43.
+          span Broches de acero
+        .row.justify-content-center
+          .col-lg-8.col-md-9
+            figure.mb-3
+              img(src='@/assets/curso/temas/t3/fig43.png', alt='Exhibidor de botones metálicos y recubiertos, organizados en seis filas, cada uno acompañado por una referencia que indica acabado o tono.')
+        figcaption Fuente: 
+          a(href="https://peleteriamilano.com/producto/broche-de-presion-ideal-para-chamarra-rt-100-o-1000-juegos/" target="_blank") https://peleteriamilano.com/producto/broche-de-presion-ideal-para-chamarra-rt-100-o-1000-juegos/
+      .col-lg-6.col-md-6.col-10.mb-4.mb-lg-0
+        .titulo-sexto.color-acento-contenido.mb-2
+          h5 Figura 44.          
+          span #[em Snap] montado
+        .row.justify-content-center
+          .col-lg-8.col-md-9
+            figure.mb-3
+              img(src='@/assets/curso/temas/t3/fig44.png', alt='Cuatro piezas plásticas blancas dispuestas sobre una base cuadriculada, con etiquetas que indican dos partes huecas y dos salientes, comúnmente utilizadas como broches a presión.')
+        figcaption Fuente: 
+          a(href="https://coloursforbaby.blogspot.com/2016/09/como-poner-y-quitar-snaps.html" target="_blank") https://coloursforbaby.blogspot.com/2016/#[br]09/como-poner-y-quitar-snaps.html
+
 
     Separador
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -799,30 +803,13 @@
     .subt.mb-4(data-aos="fade")
       img(src="@/assets/curso/temas/t4/subt.svg")
       h3.ps-3.pe-4.mb-0 Cintas al bies y decorativas
-    
-    .row.justify-content-center.mb-4(data-aos="fade")
-      .col-lg-3.col-md-6.col-10.mb-4.mb-lg-0
-        .titulo-sexto.color-acento-contenido.mb-2
-          h5 Figura 45.
-          span Cinta al bies
-        figure.mb-2  
-          img(src='@/assets/curso/temas/t3/fig45.png', alt='Tijeras abiertas cortando una cinta ondulada dispuesta en diagonal.')
-        figcaption Fuente: 
-          a(href="https://n9.cl/1rncsv" target="_blank") https://n9.cl/1rncsv
-      .col-lg-3.col-md-6.col-10.mb-4.mb-lg-0
-        .titulo-sexto.color-acento-contenido.mb-2
-          h5 Figura 46.          
-          span Cinta decorativa
-        figure.mb-2  
-          img(src='@/assets/curso/temas/t3/fig46.png', alt='Doce cintas decorativas dispuestas en filas, con patrones geométricos repetitivos y bordes recortados en forma de ondas o picos.')
-        figcaption Fuente: 
-          a(href="https://n9.cl/8knqf" target="_blank") https://n9.cl/8knqf
-      .col-lg-6
-        .bg-17.p-4.p-lg-5.h-100.d-flex.align-items-center
-          p.mb-0 Las cintas al bies resultan imprescindibles en el ajuste de prendas femeninas, pues su corte sesgado les permite adaptarse sin arrugas a contornos curvos como escotes, sisas y bastas. Su aplicación refuerza el borde de la prenda y ofrece un acabado limpio, al tiempo que facilita ligeros ajustes de ancho o largo. Por su parte, las cintas decorativas (galones, pasamanerías y encajes) añaden valor estético al borde o costura vista, al mismo tiempo que ocultan refuerzos y permiten modular la tensión del trazo final, asegurando que el escote o la cintura se ciñan con comodidad y elegancia al torso femenino.
 
+
+    .bg-17.p-4.p-lg-5.h-100.d-flex.align-items-center.mb-4
+      p.mb-0 Las cintas al bies resultan imprescindibles en el ajuste de prendas femeninas, pues su corte sesgado les permite adaptarse sin arrugas a contornos curvos como escotes, sisas y bastas. Su aplicación refuerza el borde de la prenda y ofrece un acabado limpio, al tiempo que facilita ligeros ajustes de ancho o largo. Por su parte, las cintas decorativas (galones, pasamanerías y encajes) añaden valor estético al borde o costura vista, al mismo tiempo que ocultan refuerzos y permiten modular la tensión del trazo final, asegurando que el escote o la cintura se ciñan con comodidad y elegancia al torso femenino.    
+      
     .mb-5(data-aos="fade-down")
-      .titulo-sexto.color-acento-contenido
+      .titulo-sexto.color-acento-contenido.mb-3
         h5 Tabla 16.
         span Tipos de cintas 
       .tabla-a.color-acento-contenido
@@ -848,6 +835,29 @@
               td Adorno y refuerzo en costuras vistas.
               td Galones, pasamanerías, encajes.
               td Galón de terciopelo en chaqueta; encaje en blusa.
+
+    .row.justify-content-center.mb-5(data-aos="fade")
+      .col-lg-6.col-md-6.col-10.mb-4.mb-lg-0
+        .titulo-sexto.color-acento-contenido.mb-2
+          h5 Figura 45.
+          span Cinta al bies
+        .row.justify-content-center
+          .col-lg-8.col-md-9
+            figure.mb-3 
+              img(src='@/assets/curso/temas/t3/fig45.png', alt='Tijeras abiertas cortando una cinta ondulada dispuesta en diagonal.')
+        figcaption Fuente: 
+          a(href="https://n9.cl/1rncsv" target="_blank") https://n9.cl/1rncsv
+      .col-lg-6.col-md-6.col-10.mb-4.mb-lg-0
+        .titulo-sexto.color-acento-contenido.mb-2
+          h5 Figura 46.          
+          span Cinta decorativa
+        .row.justify-content-center
+          .col-lg-8.col-md-9
+            figure.mb-3 
+              img(src='@/assets/curso/temas/t3/fig46.png', alt='Doce cintas decorativas dispuestas en filas, con patrones geométricos repetitivos y bordes recortados en forma de ondas o picos.')
+        figcaption Fuente: 
+          a(href="https://n9.cl/8knqf" target="_blank") https://n9.cl/8knqf
+
 
     .subt.mb-4(data-aos="fade")
       img(src="@/assets/curso/temas/t4/subt.svg")
